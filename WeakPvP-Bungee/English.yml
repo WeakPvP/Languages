@@ -1,0 +1,109 @@
+noperm: '&cYou don''t have the permission to use this command!'
+unknown-error: '&cUnknown error occurred! Contact staff'
+usage: '&aPlease use &e%usage%&a!'
+core:
+  commands:
+    - '&6BCore command help:'
+    - '&b/core network &e- Displays network statistics.'
+    - '&b/core player (name) &e- Displays player information.'
+    - '&b/core lookup (name) &e- Displays the players with the given part in their name.'
+    - '&b/core hide &e- Hides you from /glist & /find.'
+    - '&b/staffchat &e- Enables / disables staff chat.'
+    - '&b/gspy &e- Enables / disables socialspy.'
+  core network:
+    messages:
+      - '&e&lBCore &8» &6BungeeCord statistics'
+      - '&6Uptime: &b%uptime%'
+      - '&6TPS: &a%tps%'
+      - '&6Max: &b%max% MB'
+      - '&6Free: &b%free% MB'
+      - '&6Total: &b%total% MB'
+      - '&6Online players: &b%total_online%'
+  core player:
+    no_player: '&cProvide a player to see info from'
+    no_exists: '&cThis player has never joined before'
+    messages:
+      - '&eInformation about &b%player%'
+      - '&eID: &b%id%'
+      - '&eUUID: &b%uuid%'
+      - '&eFirst join: &b%first_join%'
+      - '&eLast logout: &b%last_logout%'
+      - '&eIP: &b%ip%'
+      - '&eLanguage: &b%language%'
+  core lookup:
+    no_player: '&cProvide a player to see alts from'
+    no_exists: '&cThis player has never joined before'
+    messages:
+      - '&ePlayers with &b%player% &ein their name:'
+      - '&6%players%'
+  core alts:
+    no_player: '&cProvide a player to see info from'
+    no_exists: '&cThis player has never joined before'
+    messages:
+      - '&6The following players are playing on this IP:'
+      - '&e- &b%players% &e: %last-logouts%'
+  core hide:
+    enabled_message: '&6You are now &bhidden&6'
+    disabled_message: '&6You are no longer &bhidden&6'
+hubbalancer:
+  nohub: '&cThere is no lobby available!'
+  connect: '&aYou have been connected to the lobby!'
+  alreadyconnected: '&cYou are already connected to this server!'
+  kicked: '&cYou have been kicked from &f%server% &cfor: &c%reason%&c!'
+glist:
+  playerlistcolor: '&f'
+  format: '&a%server% &e(%players%): &f%playerlist%'
+  total: '&fThere are &b%totalnum% &fplayers online now!'
+find:
+  usage: '&cPlease use /find {name}'
+  offline: '&c%player% &7is &4offline&7, last seen at &c%date%!'
+  never-joined: '&c%player% &7has never joined!'
+  message: '&a%player% &7is online in &a%server%&7!'
+language:
+  usage: '&cPlease use /language {lang}'
+  already: '&cYou have already installed this language!'
+  changed: '&aYou have changed your language to &b%language%&a!'
+  wait: '&cYou need to wait &b%seconds% &cseconds to use /language again.'
+msg:
+  wrongusage: '&cPlease use /msg {player} {message}!'
+  offlinetarget: '&cThat player is not online!'
+  receiving: '&8[&6%player% &c» &6Me&8] &r%message%'
+  sending: '&8[&6Me &c» &6%player%&8] &r%message%'
+reply:
+  wrongusage: '&cPlease use /reply {message}!'
+  notarget: '&cYou have nobody to reply to!'
+  offlinetarget: '&cThat player is not online anymore!'
+  receiving: '&8[&6%player% &c» &6Me&8] &r%message%'
+  sending: '&8[&6Me &c» &6%player%&8] &r%message%'
+spy:
+  wrongusage: '&cPlease use /spy!'
+  enabled: '&6Your socialspy has been &benabled&6!'
+  disabled: '&6Your socialspy has been &bdisabled&6!'
+  message: '&8[&b%server%&8] [&b%sender% &c» &b%receiver%&8] &r%message%'
+staffchat:
+  format: '&4[&9%server%&4] &6%player%&c: %message%'
+  enabled: '&eYou are now talking in &cstaff chat&e!'
+  disabled: '&eYou are now talking in &apublic chat&e!'
+antiad:
+  message: '&cPlease do not advertise!'
+  staffmessage:
+    - '&b%name% &6tried to advertise at &b%server%&6, but has been blocked!'
+    - '&bMessage: &6%message%'
+antiswear:
+  message: '&cPlease do not use blacklisted words!'
+  staffmessage:
+    - '&b%name% &6tried to swear at &b%server%&6, but has been blocked!'
+    - '&bMessage: &6%message%'
+report:
+  usage: '&cPlease use &b/report {player} {reason} &c(Abuse will result in punishment!)'
+  cooldown: '&cPlease wait &d%time% &cseconds until reporting someone again!'
+  offline: '&cThat player is not online!'
+  self-report: '&cYou can''t report yourself!'
+  not-in-server: '&cThis player is not in the same server as you!'
+  staff:
+    - '&c&l&m========================================='
+    - '&8[&b%server%&8] &b%player% &6has reported &b%target%!'
+    - '&6Reason: &b%reason%'
+    - '&c&l&m========================================='
+  success: '&eYou have successfully reported &b%player%&e!, All online staff has been
+    alerted'

@@ -1,0 +1,108 @@
+noperm: '&cDu har ikke tilgang til å bruke denne kommandoen!'
+unknown-error: '&cUkjent feil! Ta kontakt med personalet.'
+usage: '&aVennligst bruk &e%usage%&a!'
+core:
+  commands:
+    - '&6BCore kommando hjelp:'
+    - '&b/core network &e- Viser server detaljer.'
+    - '&b/core player (navn) &e- Viser spiller detaljer.'
+    - '&b/core lookup (navn) &e- Viser spiller med den gitte delen i navnet sitt.'
+    - '&b/core hide &e- Gjemmer deg fra /glist og /find.'
+    - '&b/staffchat &e- Skrur på / av staff chat.'
+    - '&b/gspy &e- Skrur på / av socialspy.'
+  core network:
+    messages:
+      - '&e&lBCore &8» &6BungeeCord statistikker'
+      - '&6Oppetid: &b%uptime%'
+      - '&6TPS: &a%tps%'
+      - '&6Maks: &b%max% MB'
+      - '&6Fri: &b%free% MB'
+      - '&6Total: &b%total% MB'
+      - '&6Spillere på: &b%total_online%'
+  core player:
+    no_player: '&cGi en spiller å se info fra'
+    no_exists: '&cDenne spilleren har ikke spilt før!'
+    messages:
+      - '&eInformasjon om &b%player%'
+      - '&eID: &b%id%'
+      - '&eUUID: &b%uuid%'
+      - '&eFørste gang spilleren ble med: &b%first_join%'
+      - '&eSiste gang spilleren logget ut: &b%last_logout%'
+      - '&eIP: &b%ip%'
+      - '&eSpråk: &b%language%'
+  core lookup:
+    no_player: '&cGi en spiller å se alts fra'
+    no_exists: '&cDenne spilleren har ikke spilt før!'
+    messages:
+      - '&eSpillere med &b%player% &ei navnet sitt:'
+      - '&6%players%'
+  core alts:
+    no_player: '&cGi en spiller å se info fra'
+    no_exists: '&cDenne spilleren har ikke spilt før!'
+    messages:
+      - '&6Spillere som spiller på denne IP:'
+      - '&e- &b%players% &e: %last-logouts%'
+  core hide:
+    enabled_message: '&6Du er nå &bgjemt&6'
+    disabled_message: '&6Du er ikke lenger &bgjemt&6'
+hubbalancer:
+  nohub: '&cDet er ikke noe lobby tilgjenglig!'
+  connect: '&aDu er nå tilkoblet til lobbyen!'
+  alreadyconnected: '&cDu er allerede tilkoblet til denne lobbyen!'
+  kicked: '&cDu har blir kastet ut av &f%server% &cfordi: &c%reason%&c!'
+glist:
+  playerlistcolor: '&f'
+  format: '&a%server% &e(%players%): &f%playerlist%'
+  total: '&fDet er &b%totalnum% &fspillere på nå!'
+find:
+  usage: '&cVennligst bruk /find {navn}'
+  offline: '&c%player% &7er &4offline&7, sist sett &c%date%!'
+  never-joined: '&c%player% &7har aldri spilt før!'
+  message: '&a%player% &7er på i &a%server%&7!'
+language:
+  usage: '&cVennligst bruk /language {språk}'
+  already: '&cDu har allerede installert dette språket!'
+  changed: '&aDu har byttet språk til &b%language%&a!'
+  wait: '&cDu må vente &b%seconds% &csekunder før du kan bruke /language igjen.'
+msg:
+  wrongusage: '&cVennligst bruk /msg {spiller} {melding}!'
+  offlinetarget: '&cDenne spilleren er ikke på!'
+  receiving: '&8[&6%player% &c» &6Jeg&8] &r%message%'
+  sending: '&8[&6Jeg &c» &6%player%&8] &r%message%'
+reply:
+  wrongusage: '&cVennligst bruk /reply {melding}!'
+  notarget: '&cDu har ingen å svare!'
+  offlinetarget: '&cDenne spilleren er ikke på lengere!'
+  receiving: '&8[&6%player% &c» &6Jeg&8] &r%message%'
+  sending: '&8[&6Jeg &c» &6%player%&8] &r%message%'
+spy:
+  wrongusage: '&cVennligst bruk /spy!'
+  enabled: '&6Din socialspy har blitt skrudd &bpå&6!'
+  disabled: '&6Din socialspy har blitt skrudd &bav&6!'
+  message: '&8[&b%server%&8] [&b%sender% &c» &b%receiver%&8] &r%message%'
+staffchat:
+  format: '&4[&9%server%&4] &6%player%&c: %message%'
+  enabled: '&eDu snakker nå i &cstaff chat&e!'
+  disabled: '&eDu snakker nå i &aoffentlig chat&e!'
+antiad:
+  message: '&cVennligst ikke reklamere!'
+  staffmessage:
+    - '&b%name% &6forsøkte å reklamere på &b%server%&6, men har blitt blokkert!'
+    - '&bMelding: &6%message%'
+antiswear:
+  message: '&cVennligst ikke bruk blokkerte ord!'
+  staffmessage:
+    - '&b%name% &6forsøkte å banne på &b%server%&6, men har blitt blokkert!'
+    - '&bMelding: &6%message%'
+report:
+  usage: '&cVennligst bruk &b/report {spiller} {grunn} &c(Misbruk kan føre til en straff!)'
+  cooldown: '&cVennligst vent &d%time% &csekunder før du rapporterer en annen spiller!'
+  offline: '&cDenne spilleren er ikke på!'
+  self-report: '&cDu kan ikke rapportere deg selv!'
+  not-in-server: '&cDenne spilleren er ikke på samme server som deg!'
+  staff:
+    - '&c&l&m========================================='
+    - '&8[&b%server%&8] &b%player% &6har rapportert &b%target%!'
+    - '&6Grunn: &b%reason%'
+    - '&c&l&m========================================='
+  success: '&eDu har nå rapportert &b%player%&e!, Alle personale på har blitt varslet!'
