@@ -1,0 +1,108 @@
+noperm: '&cDu hast keine Rechte diesen Command zu benutzen!'
+unknown-error: '&cEin unbekannter Fehler ist aufgetreten! Kontaktieren sie einen Adminstrator'
+usage: '&aBitte benutze &e%usage%&a!'
+core:
+  commands:
+    - '&6BCore command Hilfe:'
+    - '&b/core network &e- zeigt Netzwerk statistiken an.'
+    - '&b/core player (name) &e- Zeigt Spieler Informationen an.'
+    - '&b/core lookup (name) &e- Zeigt die Spieler an, die den angegebenen Teil in ihrem Namen haben.'
+    - '&b/core hide &e- Versteckt dich von /glist & /find.'
+    - '&b/staffchat &e- aktiviert / deaktiviert Staff Chat.'
+    - '&b/gspy &e- Aktiviert / Deaktiviert socialspy.'
+  core network:
+    messages:
+      - '&e&lBCore &8» &6BungeeCord Statisticken'
+      - '&6Uptime: &b%uptime%'
+      - '&6TPS: &a%tps%'
+      - '&6Max: &b%max% MB'
+      - '&6Free: &b%free% MB'
+      - '&6Total: &b%total% MB'
+      - '&6Online players: &b%total_online%'
+  core player:
+    no_player: '&cProvide a player to see info from'
+    no_exists: '&cDieser Spieler ist noch nie gejoint'
+    messages:
+      - '&eInformation about &b%player%'
+      - '&eID: &b%id%'
+      - '&eUUID: &b%uuid%'
+      - '&eFirst join: &b%first_join%'
+      - '&eLast logout: &b%last_logout%'
+      - '&eIP: &b%ip%'
+      - '&eLanguage: &b%language%'
+  core lookup:
+    no_player: '&cProvide a player to see alts from'
+    no_exists: '&cDieser Spieler ist noch nie gejoint'
+    messages:
+      - '&ePlayers with &b%player% &ein their name:'
+      - '&6%players%'
+  core alts:
+    no_player: '&cProvide a player to see info from'
+    no_exists: '&cDieser Spieler ist noch nie gejoint'
+    messages:
+      - '&6Die folgenden Spieler spielen auf dieser IP:'
+      - '&e- &b%players% &e: %last-logouts%'
+  core hide:
+    enabled_message: '&6Du bist jetzt &bversteckt&6'
+    disabled_message: '&6Du bist nicht mehr &bversteckt&6'
+hubbalancer:
+  nohub: '&cEs ist keine Lobby verfügbar'
+  connect: '&aYDu wurdest zur Lobby verbunden!'
+  alreadyconnected: '&cDu bist bereits auf diesem Server!'
+  kicked: '&cDu wurdest gekickt von dem &f%server% &cwegen: &c%reason%&c!'
+glist:
+  playerlistcolor: '&f'
+  format: '&a%server% &e(%players%): &f%playerlist%'
+  total: '&fEs sind gerade &b%totalnum% &fSpieler online!'
+find:
+  usage: '&c´Bitte benutze /find {name}'
+  offline: '&c%player% &7ist &4offline&7, zuletzt gesehen am &c%date%!'
+  never-joined: '&c%player% &7ist noch nie gejoint!'
+  message: '&a%player% &7ist online auf &a%server%&7!'
+language:
+  usage: '&cBitte benutze /language {lang}'
+  already: '&cDu hast diese Sprache schon installiert!'
+  changed: '&aDu hast deine Sprache geändert zu &b%language%&a!'
+  wait: '&cDu musst &b%seconds% &cSekunden bis du /language wieder benutzen kannst.'
+msg:
+  wrongusage: '&cBitte benutze /msg {player} {message}!'
+  offlinetarget: '&cDieser Spieler ist nicht online!'
+  receiving: '&8[&6%player% &c» &6Me&8] &r%message%'
+  sending: '&8[&6Me &c» &6%player%&8] &r%message%'
+reply:
+  wrongusage: '&cBitte benutze /reply {message}!'
+  notarget: '&cDu hast neimanden, dem du antworten kannst!'
+  offlinetarget: '&cDieser Spieler ist nicht mehr online!'
+  receiving: '&8[&6%player% &c» &6Me&8] &r%message%'
+  sending: '&8[&6Me &c» &6%player%&8] &r%message%'
+spy:
+  wrongusage: '&cBitte benutze /spy!'
+  enabled: '&6Dein socialspy wurde &benabled&6!'
+  disabled: '&6Dein socialspy wurde &bdisabled&6!'
+  message: '&8[&b%server%&8] [&b%sender% &c» &b%receiver%&8] &r%message%'
+staffchat:
+  format: '&4[&9%server%&4] &6%player%&c: %message%'
+  enabled: '&eDu sprichst jetzt im  &cstaff Chat&e!'
+  disabled: '&eDu sprichst jetzt im &aöffentlichen Chat&e!'
+antiad:
+  message: '&cBitte mach keine Werbung!!'
+  staffmessage:
+    - '&b%name% &6wollte Werbung machen auf &b%server%&6, aber er wurde blockiert!'
+    - '&bMessage: &6%message%'
+antiswear:
+  message: '&cAchte auf deine Wortwahl!!'
+  staffmessage:
+    - '&b%name% &6hat versucht zu beleidigen &b%server%&6, aber wurde geblockt!'
+    - '&bMessage: &6%message%'
+report:
+  usage: '&cBitte benutze &b/report {Spieler} {Grund} &c(Ausnutzen wird zu einer Strafe führen!)'
+  cooldown: '&cBitte warte &d%time% &cSekunden bis du jemanden erneut reportest!'
+  offline: '&cDieser Spieler ist nicht online!'
+  self-report: '&cDu kannst dich nicht selber reporten!'
+  not-in-server: '&cDieser Spieler ist nicht auf dem gleichen Server wie du!'
+  staff:
+    - '&c&l&m========================================='
+    - '&8[&b%server%&8] &b%player% &6has reported &b%target%!'
+    - '&6Reason: &b%reason%'
+    - '&c&l&m========================================='
+  success: '&eDu hast erfolgreich gereportet: &b%player%&e!, das Staff Team wurde alamiert'
