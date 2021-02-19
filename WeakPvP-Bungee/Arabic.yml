@@ -1,0 +1,109 @@
+noperm: '&claysa ladayka al-idn liaistikhdami hada al-amr!'
+unknown-error: '&cHadatha khataa ghayro maaroof! itassil bifarik al-itissal
+usage: '&aYourja istikhdam &e%usage%&a!'
+core:
+  commands:
+    - '&6BCore awamiro al-mosaada:'
+    - '&b/core network &e- idhar chabakato al-ihssaiyat.'
+    - '&b/core player (name) &e- idhar maaloumat allaiib.'
+    - '&b/core lookup (name) &e- idhar al-laiibina biljozii al-mohadadi fi assmaiihim.'
+    - '&b/core hide &e- ikhafaoka mn /find & /glist.'
+    - '&b/staffchat &e- tafiilo/taatilo dardachato al-mowadafina.'
+    - '&b/gspy &e- tafiilo/taatilo attajassos.'
+  core network:
+    messages:
+      - '&e&lBCore &8» &6Ihssaiyat al-BungeeCord.'
+      - '&6Modato attachghil: &b%uptime%'
+      - '&6TPS: &a%tps%'
+      - '&6Akssa: &b%max% MB'
+      - '&6Motah: &b%free% MB'
+      - '&6Al-majmoo: &b%total% MB'
+      - '&6Al-laiibina al-mawjodina: &b%total_online%'
+  core player:
+    no_player: '&cOdkor al-laiib litochahida maalomatihi.'
+    no_exists: '&cHada al-laiibo lam yadkhol al-server'
+    messages:
+      - '&eMaaloumat &b%player%'
+      - '&eID: &b%id%'
+      - '&eUUID: &b%uuid%'
+      - '&eAwal indimam: &b%first_join%'
+      - '&eAkhir khoroj: &b%last_logout%'
+      - '&eIP: &b%ip%'
+      - '&eAllogha: &b%language%'
+  core lookup:
+    no_player: '&cOdkor al-laiib litochahida monawibih'
+    no_exists: '&cHada al-laiibo lam yadkhol al-server'
+    messages:
+      - '&eLaiibina al-&b%player% &efi assmaiihim:'
+      - '&6%players%'
+  core alts:
+    no_player: '&cOdkor al-laiib litochahida maalomatihi.'
+    no_exists: '&cHada al-laiibo lam yadkhol al-server'
+    messages:
+      - '&6Allaibona al-mawjodona aala el IP:'
+      - '&e- &b%players% &e: %last-logouts%'
+  core hide:
+    enabled_message: '&6Anta al-aana &bmakhfi&6'
+    disabled_message: '&6Anta lam taod &bmakhfi&6'
+hubbalancer:
+  nohub: '&cLa yojado makanon lilkaiimati al-raiissiya!'
+  connect: '&aAnta al-aana motassilon ilalkaiimati al-raiissiya!'
+  alreadyconnected: '&cAnta sabikan motassilon ilalkaiimati al-raiissiya!'
+  kicked: '&cTama tardoka min &f%server% &cLi: &c%reason%&c!'
+glist:
+  playerlistcolor: '&f'
+  format: '&a%server% &e(%players%): &f%playerlist%'
+  total: '&fHonalika &b%totalnum% &flaiibina motahiina al-aan!'
+find:
+  usage: '&cRajaan istaamil /find {name}'
+  offline: '&c%player% &7ghayro &4mottassil&7, akhiro dohorin fi &c%date%!'
+  never-joined: '&c%player% &7lam yadkholi al-server baad!'
+  message: '&a%player% &7mottasilon fi &a%server%&7!'
+language:
+  usage: '&cRajaan istaamil /language {lang}'
+  already: '&cAnta sabikan motassilon hadihi allogha!'
+  changed: '&aTama taghyiro loghatika ila &b%language%&a!'
+  wait: '&cYajibo an tantadira &b%seconds% &ctawanin litasstaamila /language.'
+msg:
+  wrongusage: '&cRajaan istaamil /msg {player} {message}!'
+  offlinetarget: '&cHada al-laiibo layssa mottasilon!'
+  receiving: '&8[&6%player% &c» &6Me&8] &r%message%'
+  sending: '&8[&6Me &c» &6%player%&8] &r%message%'
+reply:
+  wrongusage: '&cRajaan istaamil /reply {message}!'
+  notarget: '&cLayssa ladayka rassaiilon!'
+  offlinetarget: '&cHada al-laiibo layssa mottasilon!'
+  receiving: '&8[&6%player% &c» &6Me&8] &r%message%'
+  sending: '&8[&6Me &c» &6%player%&8] &r%message%'
+spy:
+  wrongusage: '&cRajaan istaamil /spy!'
+  enabled: '&6Tama &btafiilo al-socialspy&6!'
+  disabled: '&6Tama &btaatilo al-socialspy&&6!'
+  message: '&8[&b%server%&8] [&b%sender% &c» &b%receiver%&8] &r%message%'
+staffchat:
+  format: '&4[&9%server%&4] &6%player%&c: %message%'
+  enabled: '&eAnta al-aana tatakalamo fi &cdardachati al-mowadafina&e!'
+  disabled: '&eAnta al-aana tatakalamo fi &adardachati al-jamii&e!'
+antiad:
+  message: '&cRajaan la toolin!'
+  staffmessage:
+    - '&b%name% &6hawala an yoolin fi &b%server%&6, lakinaho mahjoob!'
+    - '&bAl-rissala: &6%message%'
+antiswear:
+  message: '&cRajaan la tasstaamil al-kalimat allati fi al-kaiimati al-sawdaa!'
+  staffmessage:
+    - '&b%name% &6hawala an yassoba fi &b%server%&6, lakinaho mahjoob!'
+    - '&bMessage: &6%message%'
+report:
+  usage: '&cRajaan istaamil &b/report {player} {reason} &c(Soo al-moaamali kad yoadi ila al-ikab!)'
+  cooldown: '&cYajibo an tantadira &d%time% &ctawanin likay tachki biahadin akhar!'
+  offline: '&cHada al-laiibo layssa mottasilon!'
+  self-report: '&cLa yomkinoka an tachki binafssika!'
+  not-in-server: '&cHada al-laiibo layssa fi nafssi al-server!'
+  staff:
+    - '&c&l&m========================================='
+    - '&8[&b%server%&8] &b%player% &6chaka bi &b%target%!'
+    - '&6Al-sabab: &b%reason%'
+    - '&c&l&m========================================='
+  success: '&eTama al-chikayato bi &b%player%&e!, Kolo al-mowadafina sayatimo
+    tablighohom.'
