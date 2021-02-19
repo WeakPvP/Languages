@@ -1,0 +1,13 @@
+no-permission: '&claysa ladayka al-idn liaistikhdami hada al-amr!'
+language:
+  usage: '&cRajaan istaamil /language {lang}'
+  already: '&cAnta sabikan motassilon hadihi allogha!'
+  changed: '&aTama taghyiro loghatika ila &b%language%&a!'
+  wait: '&cYajibo an tantadira &b%seconds% &ctawanin litasstaamila /language.'
+nickname:
+  usage: '&cRajaan istaamil /nick {nickname/off}'
+  changed: '&eIsmoka al-aana howa %nickname%'
+  removed: '&eLayssa ladayka al-aana issm.'
+  invalid: '&cIslon khatii! Yomkinoka istiimalo fakat al-horoff, arkam & had ila
+    20 harf.'
+  taken: '&cHada al-issmo mosstaamalon!'
