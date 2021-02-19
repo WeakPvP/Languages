@@ -1,0 +1,13 @@
+no-permission: '&cYou don''t have the permission to use this command!'
+language:
+  usage: '&cPlease use /language {lang}'
+  already: '&cYou have already installed this language!'
+  changed: '&aYou have changed your language to &b%language%&a!'
+  wait: '&cYou need to wait &b%seconds% &cseconds to use /language again.'
+nickname:
+  usage: '&cPlease use /nick {nickname/off}'
+  changed: '&eYour nickname is now %nickname%'
+  removed: '&eYou no longer have a nickname.'
+  invalid: '&cInvalid nickname! You can only use letters, numbers and a maximum of
+    20 characters.'
+  taken: '&cThat name is already in use!'
