@@ -1,0 +1,109 @@
+noperm: '&cNimaš dovoljenja za uporabo tega ukaza'
+unknown-error: '&cPrišlo je do neznane napake! Prosim kontaktiraj osebje!'
+usage: '&aProsim uporabi &e%usage%&a!'
+core:
+  commands:
+    - '&6BMožnosti Core ukaza:'
+    - '&b/core network &e- Pokaže specifikacije omrežja.'
+    - '&b/core player (name) &e- Pokaže informacije igralca.'
+    - '&b/core lookup (name) &e- Pokaže imena igralcev katera vsebujejo določeno besedo.'
+    - '&b/core hide &e- Te skrije pred /glist & /find.'
+    - '&b/staffchat &e- Omogoči / Onemogoči klepet osebja.'
+    - '&b/gspy &e- Omogoči / Onemogoči socialspy.'
+  core network:
+    messages:
+      - '&e&lBCore &8» &6BungeeCord statistika'
+      - '&6Uptime: &b%uptime%'
+      - '&6TPS: &a%tps%'
+      - '&6Max: &b%max% MB'
+      - '&6Free: &b%free% MB'
+      - '&6Total: &b%total% MB'
+      - '&6Online players: &b%total_online%'
+  core player:
+    no_player: '&cNavedite igralca za ogled informacij'
+    no_exists: '&cTa igralec se ni nikoli pridružil'
+    messages:
+      - '&eInformacije igralca &b%player%'
+      - '&eID: &b%id%'
+      - '&eUUID: &b%uuid%'
+      - '&ePrvič pridružil: &b%first_join%'
+      - '&eNazadnje odjavil : &b%last_logout%'
+      - '&eIP: &b%ip%'
+      - '&eJezik: &b%language%'
+  core lookup:
+    no_player: '&cNavedite igralca za ogled informacij'
+    no_exists: '&cTa igralec se ni nikoli pridružil'
+    messages:
+      - '&eIgralci s &b%player% &eimajo v imenu:'
+      - '&6%players%'
+  core alts:
+    no_player: '&cNavedite igralca za ogled informacij'
+    no_exists: '&cTa igralec se ni nikoli pridružil'
+    messages:
+      - '&6Igralci, ki igrajo na tem IP-ju:'
+      - '&e- &b%players% &e: %last-logouts%'
+  core hide:
+    enabled_message: '&6Zdej si &bneviden&6'
+    disabled_message: '&6Zdej si &bviden&6'
+hubbalancer:
+  nohub: '&cNobene avle ni na vojo!'
+  connect: '&aPovezan si v avlo!'
+  alreadyconnected: '&cPovezan si že s tem strežnikom!'
+  kicked: '&cIz &f%server% si bil brcnjen &czaradi: &c%reason%&c!'
+glist:
+  playerlistcolor: '&f'
+  format: '&a%server% &e(%players%): &f%playerlist%'
+  total: '&fTrenutno je &b%totalnum% &faktivnih igralcev!'
+find:
+  usage: '&cProsim uporabi /find {name}'
+  offline: '&c%player% &7je &4nedosegliv&7, nazadnje je bil viden &c%date%!'
+  never-joined: '&c%player% &7se je pridružil!'
+  message: '&a%player% &7je aktiven v &a%server%&7 serverju!'
+language:
+  usage: '&cProsim uporabi /language {lang}'
+  already: '&cTa jezik že uporabljaš!'
+  changed: '&ajezik si spremenil v &b%language%&a!'
+  wait: '&cPočakati moreš &b%seconds% &csekund preden lahko znova uporabiš /language.'
+msg:
+  wrongusage: '&cProsim uporabi /msg {player} {message}!'
+  offlinetarget: '&cIgralec ni navoljo!'
+  receiving: '&8[&6%player% &c» &6Me&8] &r%message%'
+  sending: '&8[&6Me &c» &6%player%&8] &r%message%'
+reply:
+  wrongusage: '&cProsim uporabi /reply {message}!'
+  notarget: '&cNikomur nimaš za odgovorit!'
+  offlinetarget: '&cIgralec ni več aktiven!'
+  receiving: '&8[&6%player% &c» &6Me&8] &r%message%'
+  sending: '&8[&6Me &c» &6%player%&8] &r%message%'
+spy:
+  wrongusage: '&cProsim uporabi /spy!'
+  enabled: '&bVklopil&6 si zasebneo sledenje!'
+  disabled: '&bizklopil&6 si zasebno sledenje!'
+  message: '&8[&b%server%&8] [&b%sender% &c» &b%receiver%&8] &r%message%'
+staffchat:
+  format: '&4[&9%server%&4] &6%player%&c: %message%'
+  enabled: '&eSedaj se pogovarjaš v &cosebjem klepetu&e!'
+  disabled: '&eSedaj se pogovarjaš v &ajavnem klepetu&e!'
+antiad:
+  message: '&cProsim ne oglašuj!'
+  staffmessage:
+    - '&b%name% &6je poskusil oglaševat v &b%server%&6, sporočilo blokirano!'
+    - '&bSporočilo: &6%message%'
+antiswear:
+  message: '&cProsim ne uporabljaj neprimernih besed!'
+  staffmessage:
+    - '&b%name% &6je poskusil preklinjat v &b%server%&6, sporočilo blokirano!'
+    - '&bSporočilo: &6%message%'
+report:
+  usage: '&cProsim uporabi &b/report {player} {reason} &c(Zloraba ukaza bo kaznovana!)'
+  cooldown: '&cProsim počakaj &d%time% &csekund pred ponovno prijavo igralca'
+  offline: '&cIgralec trenutno ni aktiven!'
+  self-report: '&cSamega sebe ne moreš prijaviti!'
+  not-in-server: '&cTa igralec ni v istem strežniku kot ti!'
+  staff:
+    - '&c&l&m========================================='
+    - '&8[&b%server%&8] &b%player% &6je prijavil &b%target%!'
+    - '&6Razlog: &b%reason%'
+    - '&c&l&m========================================='
+  success: '&eUspešno si prijavil &b%player%&e!, Vso prisotno osebje je bilo
+    obveščeno'
