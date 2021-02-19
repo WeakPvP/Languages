@@ -1,0 +1,108 @@
+noperm: '&cJe bent niet bemachtigt om dit command uit te voeren.'
+unknown-error: '&cEr is een onbekende fout opgetreden, meld dit alstublieft bij een staff lid.'
+usage: '&aGebruikt &e%usage%&a!'
+core:
+  commands:
+    - '&6BCore command hulp:'
+    - '&b/core network &e- Laat de netwerk statistieken zien.'
+    - '&b/core player (name) &e- Laat informatie over een speler zien.'
+    - '&b/core lookup (name) &e- Laat de spelers zien met een deel van zijn naam.'
+    - '&b/core hide &e- Verstopt jou voor /glist & /find.'
+    - '&b/staffchat &e- Doe staff chat aan / uit.'
+    - '&b/gspy &e- Doe socialspy aan / uit.'
+  core network:
+    messages:
+      - '&e&lBCore &8» &6BungeeCord statistieken'
+      - '&6Uptime: &b%uptime%'
+      - '&6TPS: &a%tps%'
+      - '&6Max: &b%max% MB'
+      - '&6Vrij: &b%free% MB'
+      - '&6Totaal: &b%total% MB'
+      - '&6Online spelers: &b%total_online%'
+  core player:
+    no_player: '&cGeen speler gegeven.'
+    no_exists: '&cDeze speler heeft nog niet eerder ingelogt.'
+    messages:
+      - '&eInformatie over &b%player%'
+      - '&eID: &b%id%'
+      - '&eUUID: &b%uuid%'
+      - '&eEerte join: &b%first_join%'
+      - '&eLaatste logout: &b%last_logout%'
+      - '&eIP: &b%ip%'
+      - '&eTaal: &b%language%'
+  core lookup:
+    no_player: '&cGeen speler gegeven.'
+    no_exists: '&cDeze speler heeft nog niet eerder ingelogt.'
+    messages:
+      - '&eSpelers met &b%player% &ein hun naam:'
+      - '&6%players%'
+  core alts:
+    no_player: '&cGeen speler gegeven.'
+    no_exists: '&cDeze speler heeft nog niet eerder ingelogt.'
+    messages:
+      - '&6De volgende spelers spelen op dit IP:'
+      - '&e- &b%players% &e: %last-logouts%'
+  core hide:
+    enabled_message: '&6Je bent nu &bontzichtbaar&6.'
+    disabled_message: '&6YJe bent nu &bzichtbaar&6.'
+hubbalancer:
+  nohub: '&cEr is geen lobby beschikbaar!'
+  connect: '&aJe bent verbonden met de lobby!'
+  alreadyconnected: '&cJe bent al verbonden met deze server!'
+  kicked: '&cJe bent gekicked van &f%server% &cmet reden: &c%reason%&c!'
+glist:
+  playerlistcolor: '&f'
+  format: '&a%server% &e(%players%): &f%playerlist%'
+  total: '&fEr zijn &b%totalnum% &fspelers actief!'
+find:
+  usage: '&cGebruikt /find {naam}'
+  offline: '&c%player% &7is &4offline&7, laatst gezien op &c%date%!'
+  never-joined: '&c%player% &7heeft niet eerder ingelogt!'
+  message: '&a%player% &7is online in &a%server%&7!'
+language:
+  usage: '&cGebruik /language {taal}'
+  already: '&cJe hebt deze taal ingeschakelt!'
+  changed: '&aJe hebt nu de taal &b%language%&a ingeschakelt!'
+  wait: '&cJe moet &b%seconds% &cseconden wachten voordat je /language weer mag gebruiken.'
+msg:
+  wrongusage: '&cGebruik /msg {speler} {bericht}!'
+  offlinetarget: '&cDeze speler is niet online!'
+  receiving: '&8[&6%player% &c» &6Ik&8] &r%message%'
+  sending: '&8[&6Ik &c» &6%player%&8] &r%message%'
+reply:
+  wrongusage: '&cGebtuik /reply {bericht}!'
+  notarget: '&cJe hebt niemand om een bericht naar terug te sturen!'
+  offlinetarget: '&cDeze speler is niet meer online!'
+  receiving: '&8[&6%player% &c» &6Ik&8] &r%message%'
+  sending: '&8[&6Ik &c» &6%player%&8] &r%message%'
+spy:
+  wrongusage: '&cGebruik /spy!'
+  enabled: '&6Jouwn socialspy staat nu &baan&6!'
+  disabled: '&6Jouwn socialspy staat nu &buit&6!'
+  message: '&8[&b%server%&8] [&b%sender% &c» &b%receiver%&8] &r%message%'
+staffchat:
+  format: '&4[&9%server%&4] &6%player%&c: %message%'
+  enabled: '&eJe praat nu in het &cstaff kanaal&e!'
+  disabled: '&eJe praat nu in het &apublieke kanaal&e!'
+antiad:
+  message: '&cWilt u alstublieft niet adventeren!'
+  staffmessage:
+    - '&b%name% &6Heeft geprobeerd te adverteren in &b%server%&6, maar is geblokeert!'
+    - '&bBericht: &6%message%'
+antiswear:
+  message: '&cGebruikt alstublieft geen verboden woorden!'
+  staffmessage:
+    - '&b%name% &6heeft geprobeerd te schelden in &b%server%&6, maar is geblokeerd!'
+    - '&bBericht: &6%message%'
+report:
+  usage: '&cGebruik &b/report {speler} {reden} &c(Abuse wordt gestraft!)'
+  cooldown: '&cWacht &d%time% &cseconden voordat je iemand anders report!'
+  offline: '&cDeze speler is niet online!'
+  self-report: '&cJe kan jezelf niet rapporteren!'
+  not-in-server: '&cDeze speler zit in een andere server!'
+  staff:
+    - '&c&l&m========================================='
+    - '&8[&b%server%&8] &b%player% &6is gerapporteert door &b%target%!'
+    - '&bReden: &b%reason%'
+    - '&c&l&m========================================='
+  success: '&eJe hebt &b%player%&e! met success gerapporteert, alle online staff leden zijn op de hoogten!'
