@@ -10,7 +10,7 @@ core:
     - '&b/core hide &e- Te skrije pred /glist & /find.'
     - '&b/staffchat &e- Omogoči / Onemogoči klepet osebja.'
     - '&b/gspy &e- Omogoči / Onemogoči socialspy.'
-  core network:
+  core-network:
     messages:
       - '&e&lBCore &8» &6BungeeCord statistika'
       - '&6Uptime: &b%uptime%'
@@ -19,7 +19,7 @@ core:
       - '&6Free: &b%free% MB'
       - '&6Total: &b%total% MB'
       - '&6Online players: &b%total_online%'
-  core player:
+  core-player:
     no_player: '&cNavedite igralca za ogled informacij'
     no_exists: '&cTa igralec se ni nikoli pridružil'
     messages:
@@ -30,19 +30,19 @@ core:
       - '&eNazadnje odjavil : &b%last_logout%'
       - '&eIP: &b%ip%'
       - '&eJezik: &b%language%'
-  core lookup:
+  core-lookup:
     no_player: '&cNavedite igralca za ogled informacij'
     no_exists: '&cTa igralec se ni nikoli pridružil'
     messages:
       - '&eIgralci s &b%player% &eimajo v imenu:'
       - '&6%players%'
-  core alts:
+  core-alts:
     no_player: '&cNavedite igralca za ogled informacij'
     no_exists: '&cTa igralec se ni nikoli pridružil'
     messages:
       - '&6Igralci, ki igrajo na tem IP-ju:'
       - '&e- &b%players% &e: %last-logouts%'
-  core hide:
+  core-hide:
     enabled_message: '&6Zdej si &bneviden&6'
     disabled_message: '&6Zdej si &bviden&6'
 alert:
