@@ -10,7 +10,7 @@ core:
     - '&b/core hide &e- Gjemmer deg fra /glist og /find.'
     - '&b/staffchat &e- Skrur på / av staff chat.'
     - '&b/gspy &e- Skrur på / av socialspy.'
-  core network:
+  core-network:
     messages:
       - '&e&lBCore &8» &6BungeeCord statistikker'
       - '&6Oppetid: &b%uptime%'
@@ -19,7 +19,7 @@ core:
       - '&6Fri: &b%free% MB'
       - '&6Total: &b%total% MB'
       - '&6Spillere på: &b%total_online%'
-  core player:
+  core-player:
     no_player: '&cGi en spiller å se info fra'
     no_exists: '&cDenne spilleren har ikke spilt før!'
     messages:
@@ -30,19 +30,19 @@ core:
       - '&eSiste gang spilleren logget ut: &b%last_logout%'
       - '&eIP: &b%ip%'
       - '&eSpråk: &b%language%'
-  core lookup:
-    no_player: '&cGi en spiller å se alts fra'
+  core-lookup:
+    no_player: '&cGi en spiller å se info fra'
     no_exists: '&cDenne spilleren har ikke spilt før!'
     messages:
       - '&eSpillere med &b%player% &ei navnet sitt:'
       - '&6%players%'
-  core alts:
-    no_player: '&cGi en spiller å se info fra'
+  core-alts:
+    no_player: '&cGi en spiller å se alts fra'
     no_exists: '&cDenne spilleren har ikke spilt før!'
     messages:
       - '&6Spillere som spiller på denne IP:'
       - '&e- &b%players% &e: %last-logouts%'
-  core hide:
+  core-hide:
     enabled_message: '&6Du er nå &bgjemt&6'
     disabled_message: '&6Du er ikke lenger &bgjemt&6'
 alert:
