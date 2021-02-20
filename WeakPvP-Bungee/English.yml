@@ -10,7 +10,7 @@ core:
     - '&b/core hide &e- Hides you from /glist & /find.'
     - '&b/staffchat &e- Enables / disables staff chat.'
     - '&b/gspy &e- Enables / disables socialspy.'
-  core network:
+  core-network:
     messages:
       - '&e&lBCore &8» &6BungeeCord statistics'
       - '&6Uptime: &b%uptime%'
@@ -19,7 +19,7 @@ core:
       - '&6Free: &b%free% MB'
       - '&6Total: &b%total% MB'
       - '&6Online players: &b%total_online%'
-  core player:
+  core-player:
     no_player: '&cProvide a player to see info from'
     no_exists: '&cThis player has never joined before'
     messages:
@@ -30,19 +30,19 @@ core:
       - '&eLast logout: &b%last_logout%'
       - '&eIP: &b%ip%'
       - '&eLanguage: &b%language%'
-  core lookup:
-    no_player: '&cProvide a player to see alts from'
+  core-lookup:
+    no_player: '&cProvide a player to see info from'
     no_exists: '&cThis player has never joined before'
     messages:
       - '&ePlayers with &b%player% &ein their name:'
       - '&6%players%'
-  core alts:
-    no_player: '&cProvide a player to see info from'
+  core-alts:
+    no_player: '&cProvide a player to see alts from'
     no_exists: '&cThis player has never joined before'
     messages:
       - '&6The following players are playing on this IP:'
       - '&e- &b%players% &e: %last-logouts%'
-  core hide:
+  core-hide:
     enabled_message: '&6You are now &bhidden&6'
     disabled_message: '&6You are no longer &bhidden&6'
 alert:
