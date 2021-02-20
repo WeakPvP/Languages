@@ -10,7 +10,7 @@ core:
     - '&b/core hide &e- Verstopt jou voor /glist & /find.'
     - '&b/staffchat &e- Doe staff chat aan / uit.'
     - '&b/gspy &e- Doe socialspy aan / uit.'
-  core network:
+  core-network:
     messages:
       - '&e&lBCore &8» &6BungeeCord statistieken'
       - '&6Uptime: &b%uptime%'
@@ -19,7 +19,7 @@ core:
       - '&6Vrij: &b%free% MB'
       - '&6Totaal: &b%total% MB'
       - '&6Online spelers: &b%total_online%'
-  core player:
+  core-player:
     no_player: '&cGeen speler gegeven.'
     no_exists: '&cDeze speler heeft nog niet eerder ingelogt.'
     messages:
@@ -30,21 +30,24 @@ core:
       - '&eLaatste logout: &b%last_logout%'
       - '&eIP: &b%ip%'
       - '&eTaal: &b%language%'
-  core lookup:
+  core-lookup:
     no_player: '&cGeen speler gegeven.'
     no_exists: '&cDeze speler heeft nog niet eerder ingelogt.'
     messages:
       - '&eSpelers met &b%player% &ein hun naam:'
       - '&6%players%'
-  core alts:
+  core-alts:
     no_player: '&cGeen speler gegeven.'
     no_exists: '&cDeze speler heeft nog niet eerder ingelogt.'
     messages:
       - '&6De volgende spelers spelen op dit IP:'
       - '&e- &b%players% &e: %last-logouts%'
-  core hide:
+  core-hide:
     enabled_message: '&6Je bent nu &bontzichtbaar&6.'
     disabled_message: '&6YJe bent nu &bzichtbaar&6.'
+alert:
+  no-message: '&cPlease enter a message!'
+  success: '&aSuccessfully alerted your message across the network!'
 hubbalancer:
   nohub: '&cEr is geen lobby beschikbaar!'
   connect: '&aJe bent verbonden met de lobby!'
