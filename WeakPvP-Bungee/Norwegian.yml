@@ -67,6 +67,7 @@ language:
   already: '&cDu har allerede installert dette språket!'
   changed: '&aDu har byttet språk til &b%language%&a!'
   wait: '&cDu må vente &b%seconds% &csekunder før du kan bruke /language igjen.'
+  unavailable: '&cLanguage not found!'
 msg:
   wrongusage: '&cVennligst bruk /msg {spiller} {melding}!'
   offlinetarget: '&cDenne spilleren er ikke på!'
