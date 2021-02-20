@@ -45,6 +45,9 @@ core:
   core hide:
     enabled_message: '&6Du er nå &bgjemt&6'
     disabled_message: '&6Du er ikke lenger &bgjemt&6'
+alert:
+  no-message: '&cPlease enter a message!'
+  success: '&aSuccessfully alerted your message across the network!'
 hubbalancer:
   nohub: '&cDet er ikke noe lobby tilgjenglig!'
   connect: '&aDu er nå tilkoblet til lobbyen!'
