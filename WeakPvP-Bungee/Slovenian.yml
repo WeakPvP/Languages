@@ -67,6 +67,7 @@ language:
   already: '&cTa jezik že uporabljaš!'
   changed: '&ajezik si spremenil v &b%language%&a!'
   wait: '&cPočakati moreš &b%seconds% &csekund preden lahko znova uporabiš /language.'
+  unavailable: '&cLanguage not found!'
 msg:
   wrongusage: '&cProsim uporabi /msg {player} {message}!'
   offlinetarget: '&cIgralec ni navoljo!'
