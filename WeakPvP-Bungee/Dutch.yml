@@ -67,6 +67,7 @@ language:
   already: '&cJe hebt deze taal ingeschakelt!'
   changed: '&aJe hebt nu de taal &b%language%&a ingeschakelt!'
   wait: '&cJe moet &b%seconds% &cseconden wachten voordat je /language weer mag gebruiken.'
+  unavailable: '&cLanguage not found!'
 msg:
   wrongusage: '&cGebruik /msg {speler} {bericht}!'
   offlinetarget: '&cDeze speler is niet online!'
