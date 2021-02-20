@@ -45,6 +45,9 @@ core:
   core hide:
     enabled_message: '&6Du bist jetzt &bversteckt&6'
     disabled_message: '&6Du bist nicht mehr &bversteckt&6'
+alert:
+  no-message: '&cPlease enter a message!'
+  success: '&aSuccessfully alerted your message across the network!'
 hubbalancer:
   nohub: '&cEs ist keine Lobby verfügbar'
   connect: '&aYDu wurdest zur Lobby verbunden!'
