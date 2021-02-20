@@ -45,6 +45,9 @@ core:
   core hide:
     enabled_message: '&6Zdej si &bneviden&6'
     disabled_message: '&6Zdej si &bviden&6'
+alert:
+  no-message: '&cPlease enter a message!'
+  success: '&aSuccessfully alerted your message across the network!'
 hubbalancer:
   nohub: '&cNobene avle ni na vojo!'
   connect: '&aPovezan si v avlo!'
