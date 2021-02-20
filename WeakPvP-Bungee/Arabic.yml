@@ -107,3 +107,27 @@ report:
     - '&c&l&m========================================='
   success: '&eTama al-chikayato bi &b%player%&e!, Kolo al-mowadafina sayatimo
     tablighohom.'
+discord:
+  link: '&f&lDiscord: &a&lhttps://weakpvp.com/discord/'
+  link2: '&f&lDiscord: &a&lhttps://weakpvp.com/discord/'
+  link3: '&f&lDiscord: &a&lhttps://weakpvp.com/discord/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='
+vote:
+  link: '&f&lVote: &a&lhttps://weakpvp.com/vote/'
+  link2: '&f&lVote: &a&lhttps://weakpvp.com/vote/'
+  link3: '&f&lVote: &a&lhttps://weakpvp.com/vote/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='
+rules:
+  link: '&f&lRules: &a&lhttps://weakpvp.com/rules/'
+  link2: '&f&lRules: &a&lhttps://weakpvp.com/rules/'
+  link3: '&f&lRules: &a&lhttps://weakpvp.com/rules/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='
+store:
+  link: '&f&lStore: &a&lhttps://weakpvp.com/store/'
+  link2: '&f&lStore: &a&lhttps://weakpvp.com/store/'
+  link3: '&f&lStore: &a&lhttps://weakpvp.com/store/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='
