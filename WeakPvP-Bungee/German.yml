@@ -67,6 +67,7 @@ language:
   already: '&cDu hast diese Sprache schon installiert!'
   changed: '&aDu hast deine Sprache geändert zu &b%language%&a!'
   wait: '&cDu musst &b%seconds% &cSekunden bis du /language wieder benutzen kannst.'
+  unavailable: '&cLanguage not found!'
 msg:
   wrongusage: '&cBitte benutze /msg {player} {message}!'
   offlinetarget: '&cDieser Spieler ist nicht online!'
