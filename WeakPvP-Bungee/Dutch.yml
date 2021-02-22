@@ -1,5 +1,5 @@
 noperm: '&cJe bent niet bemachtigt om dit command uit te voeren.'
-unknown-error: '&cEr is een onbekende fout opgetreden, meld dit alstublieft bij een staff lid.'
+unknown-error: '&cEr is een onbekende fout opgetreden, meld dit alstublieft bij een staflid.'
 usage: '&aGebruikt &e%usage%&a!'
 core:
   commands:
@@ -47,7 +47,7 @@ core:
     disabled_message: '&6YJe bent nu &bzichtbaar&6.'
 alert:
   no-message: '&cNiet voorzien van een bericht!'
-  success: '&aJouwn bericht is over het hele netwerk gezien!'
+  success: '&aJe bericht is over het hele netwerk gestuurd!'
 hubbalancer:
   nohub: '&cEr is geen lobby beschikbaar!'
   connect: '&aJe bent verbonden met de lobby!'
@@ -74,33 +74,33 @@ msg:
   receiving: '&8[&6%player% &c» &6Ik&8] &r%message%'
   sending: '&8[&6Ik &c» &6%player%&8] &r%message%'
 reply:
-  wrongusage: '&cGebtuik /reply {bericht}!'
+  wrongusage: '&cGebruik /reply {bericht}!'
   notarget: '&cJe hebt niemand om een bericht naar terug te sturen!'
   offlinetarget: '&cDeze speler is niet meer online!'
   receiving: '&8[&6%player% &c» &6Ik&8] &r%message%'
   sending: '&8[&6Ik &c» &6%player%&8] &r%message%'
 spy:
   wrongusage: '&cGebruik /spy!'
-  enabled: '&6Jouwn socialspy staat nu &baan&6!'
-  disabled: '&6Jouwn socialspy staat nu &buit&6!'
+  enabled: '&6Je socialspy staat nu &baan&6!'
+  disabled: '&6Je socialspy staat nu &buit&6!'
   message: '&8[&b%server%&8] [&b%sender% &c» &b%receiver%&8] &r%message%'
 staffchat:
   format: '&4[&9%server%&4] &6%player%&c: %message%'
-  enabled: '&eJe praat nu in het &cstaff kanaal&e!'
+  enabled: '&eJe praat nu in het &cstaf kanaal&e!'
   disabled: '&eJe praat nu in het &apublieke kanaal&e!'
 antiad:
-  message: '&cWilt u alstublieft niet adventeren!'
+  message: '&cWilt u alstublieft niet adverteren!'
   staffmessage:
-    - '&b%name% &6Heeft geprobeerd te adverteren in &b%server%&6, maar is geblokeert!'
+    - '&b%name% &6Heeft geprobeerd te adverteren in &b%server%&6, maar is tegen gehouden!'
     - '&bBericht: &6%message%'
 antiswear:
   message: '&cGebruikt alstublieft geen verboden woorden!'
   staffmessage:
-    - '&b%name% &6heeft geprobeerd te schelden in &b%server%&6, maar is geblokeerd!'
+    - '&b%name% &6heeft geprobeerd te schelden in &b%server%&6, maar is tegen gehouden!'
     - '&bBericht: &6%message%'
 report:
-  usage: '&cGebruik &b/report {speler} {reden} &c(Abuse wordt gestraft!)'
-  cooldown: '&cWacht &d%time% &cseconden voordat je iemand anders report!'
+  usage: '&cGebruik &b/report {speler} {reden} &c(Misbruik wordt gestraft!)'
+  cooldown: '&cWacht &d%time% &cseconden voordat je iemand anders rapporteert!'
   offline: '&cDeze speler is niet online!'
   self-report: '&cJe kan jezelf niet rapporteren!'
   not-in-server: '&cDeze speler zit in een andere server!'
@@ -109,7 +109,7 @@ report:
     - '&8[&b%server%&8] &b%player% &6is gerapporteert door &b%target%!'
     - '&bReden: &b%reason%'
     - '&c&l&m========================================='
-  success: '&eJe hebt &b%player%&e! met success gerapporteert, alle online staff leden zijn op de hoogten!'
+  success: '&eJe hebt &b%player%&e! met success gerapporteert, alle online stafleden zijn op de hoogte!'
 discord:
   link: '&f&lDiscord: &a&lhttps://weakpvp.com/discord/'
   link2: '&f&lDiscord: &a&lhttps://weakpvp.com/discord/'
