@@ -47,11 +47,11 @@ core:
     disabled_message: '&6You are no longer &bhidden&6'
 alert:
   no-message: '&cPlease enter a message!'
-  success: '&cSuccessfully summoned player(s)'
+  success: '&aSuccessfully alerted your message across the network!
 send:
   user-not-online: '&cThis user is not online!'
   player-only: '&cOnly in game players can use this command'
-  success: '&aSuccessfully alerted your message across the network!'
+  success: '&cSuccessfully summoned player(s)'
 hubbalancer:
   nohub: '&cThere is no lobby available!'
   connect: '&aYou have been connected to the lobby!'
